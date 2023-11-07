@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 
 export async function POST(request: Request) {
-  const payload = await request.json();
+  const payload = JSON.parse(fs.readFileSync("@ui/components.json", "utf-8"));
 
   const existingData = JSON.parse(
     fs.existsSync("database.json")
