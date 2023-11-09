@@ -13,14 +13,21 @@
     "@turbo/gen": "^1.10.16",
     "@turbo/workspaces": "^1.10.16",
     "@types/node": "^17.0.45",
-    "@types/react": "^18.2.36",
-    "@types/react-dom": "^18.2.14",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
     "create-turbo": "latest",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
+    "postcss": "^8.4.31",
     "prettier": "latest",
+    "tailwindcss": "^3.3.5",
     "tsconfig": "workspace:*",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "latest"
   },
-  "packageManager": "pnpm@8.10.2+sha256.487609e857f1c11780cc98dd0bfe4c8a8b11c7f23bc3a4493ac7d263d6fb6c8c"
+  "packageManager": "pnpm@8.10.2+sha256.487609e857f1c11780cc98dd0bfe4c8a8b11c7f23bc3a4493ac7d263d6fb6c8c",
+  "dependencies": {
+    "tsconfig-paths": "^4.2.0"
+  }
 }

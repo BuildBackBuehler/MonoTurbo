@@ -16,11 +16,8 @@
     "strict": false,
     "target": "es5",
     "paths": {
-      "@/*": ["./*"],
-      "@ui/*": ["../../packages/ui/*"],
-      "@ui/components/*": ["../../packages/ui/components/ui/*"],
-      "@ui/components/ui/*": ["../../packages/ui/components/ui/*"],
-      "@tsconfig/*": ["../../packages/tsconfig/*"],
+      "@ui": ["../ui"],
+      "@blocks/*": ["../ui/components/ui/*"]
     }
   },
   "include": ["src", "next-env.d.ts"],

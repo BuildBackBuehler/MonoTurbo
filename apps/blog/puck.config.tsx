@@ -1,5 +1,4 @@
 import type { Config } from "@measured/puck";
-// import { ui } from "packages/ui";
 
 type Props = {
   HeadingBlock: { title: string };
