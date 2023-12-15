@@ -1,6 +1,12 @@
 {
-  "extends": "tsconfig/base.json",
+  "extends": "tsconfig/nextjs.json",
   "compilerOptions": {
+    "types": [
+      "node",
+      "react",
+      "react-dom",
+        ],
+    "baseUrl": ".",
     "lib": [
       "dom",
       "dom.iterable",
@@ -28,6 +34,7 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
+    "src",
     "**/*.tsx"
   ],
   "exclude": [

@@ -1,4 +1,4 @@
-"use client"
+
 
 import {
   Toast,
@@ -7,8 +7,8 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@ui/components/ui/toast"
-import { useToast } from "@ui/components/ui/use-toast"
+} from "blocks/toast"
+import { useToast } from "lib/use-toast"
 
 export function Toaster() {
   const { toasts } = useToast()

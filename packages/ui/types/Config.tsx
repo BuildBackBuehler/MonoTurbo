@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { ReactNode } from "react";
-import { ItemSelector } from "../lib//puck_lib/get-item";
+import { ItemSelector } from "../lib/get-item";
 
 type WithPuckProps<Props> = Props & {
   id: string;

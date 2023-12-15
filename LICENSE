@@ -1,3 +1,12 @@
+In tsconfig.
+ "files": [
+  ],
+  "references": [
+    {
+      "path": "./packages/utils"
+    }
+  ]
+
 MIT License
 
 Copyright (c) [year] [fullname]

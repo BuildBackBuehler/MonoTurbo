@@ -1,7 +1,9 @@
 import type { Config } from "@measured/puck";
+// import { componentsInfo, ComponentsList } from "ui";  
 
 type Props = {
   HeadingBlock: { title: string };
+  // ComponentsList: { componentsInfo: string[] }; // Update the type to string[]
 };
 
 export const config: Config<Props> = {
@@ -19,6 +21,19 @@ export const config: Config<Props> = {
         </div>
       ),
     },
+    // ComponentsList: {
+    //   fields: {
+    //     componentsInfo: { type: "text" },
+    //   },
+    //   defaultProps: {
+    //     componentsInfo: componentsInfo,
+    //   },
+    //   render: ({ componentsInfo }) => (
+    //     <div style={{ padding: 64 }}>
+    //       <ComponentsList componentsInfo={componentsInfo} />
+    //     </div>
+      // ),
+    // },
   },
 };
 

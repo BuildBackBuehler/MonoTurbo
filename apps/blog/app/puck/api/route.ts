@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 
 export async function POST(request: Request) {
-  const componentsJson = fs.readFileSync("ui/components.json", "utf-8");
+  const componentsJson = fs.readFileSync("ui/components/ui/components.json", "utf-8");
 
   // Parse the file content as JSON
   const payload = JSON.parse(componentsJson);

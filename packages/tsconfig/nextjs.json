@@ -16,10 +16,10 @@
     "strict": false,
     "target": "es5",
     "paths": {
-      "@ui": ["../ui"],
-      "@blocks/*": ["../ui/components/ui/*"]
+      "@/*": ["./*"],
+      "ui": ["../ui/*"],
+      "blocks/*": ["../ui/components/ui/*"],
+      "utils":["@ui/lib/utils"]
     }
-  },
-  "include": ["src", "next-env.d.ts"],
-  "exclude": ["node_modules"]
+  }
 }
